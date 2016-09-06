@@ -13,7 +13,7 @@ function index(req, res){
   Message.find({}, function(err, messages){
     if (err) res.json({message: 'Could not find messages b/c: ' + err})
 
-    res.json({messages: messages});
+    res.json(messages);
   }).select('-__v');
 }
 

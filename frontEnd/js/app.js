@@ -1,6 +1,4 @@
 (function() {
-  angular.module('awareApp', [
-    "ui.router"
-  ]);
+  angular.module('awareApp', ['ui.router','ngResource']);
 
 })();

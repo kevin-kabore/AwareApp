@@ -17,7 +17,7 @@
         url: '/messages',
         templateUrl: '../templates/messages.html',
         controller: 'MessagesController',
-        controllerAs: 'self'
+        controllerAs: 'messageCtrl'
       })
       // .state("pledges", {
       //   url: "/pledges",
