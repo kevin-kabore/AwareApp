@@ -3,12 +3,15 @@ var router = express.Router();
 
 var messagesController = require('../controllers/messages')
 
-router.route('/api')
-  .get(messagesController.index)
-
 // Route that receives a POST request to /sms
 router.route('/api/sms')
-  .post(messagesController.inbound)
+  .get(messagesController.index)
+  .post(messagesController.create)
+
+router.route('/api/sms/:id')
+  .get(messagesController.show)
+  .patch(messagesController.update)
+  .delete(messagesController.destroy)
 
 
 module.exports = router
