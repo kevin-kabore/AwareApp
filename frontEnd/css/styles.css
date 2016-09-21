@@ -1,3 +1,9 @@
+.homeBackground {
+  color: rgb(0, 0, 0);
+  background-image: url("../images/BurkinaFasoBlurry.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .title {
   text-align: center;
   color: rgb(153, 52, 52);
@@ -10,9 +16,6 @@
   font-size: 34px;
 }
 
-.homeBackground {
-  color: rgb(0, 0, 0);
-}
 
 .textUs {
   position: absolute;
@@ -37,4 +40,16 @@
 .filter {
   /*margin: 0 auto;
   width: 50%;*/
+}
+
+#homeMission {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+table {
+  background: transparent;
+}
+
+.story-text {
+  color: red;
 }
